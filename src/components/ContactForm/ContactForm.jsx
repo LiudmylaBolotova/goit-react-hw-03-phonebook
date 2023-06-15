@@ -32,7 +32,7 @@ export class ContactForm extends Component {
 
   render() {
     return (
-      <div>
+      <>
         <Form onSubmit={this.onSubmitForm}>
           <TitleForm>Name</TitleForm>
           <label>
@@ -60,7 +60,7 @@ export class ContactForm extends Component {
           </label>
           <BtnForm type="submit">Add contact</BtnForm>
         </Form>
-      </div>
+      </>
     );
   }
 }

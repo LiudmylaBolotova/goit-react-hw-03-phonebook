@@ -4,9 +4,9 @@ import { InputForm } from '../ContactForm/ContactForm.styled';
 
 export const Filter = ({ onChangeFilter, filter }) => {
   return (
-    <div>
+    <>
       <InputForm type="text" value={filter} onChange={onChangeFilter} />
-    </div>
+    </>
   );
 };
 
